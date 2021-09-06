@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"leftclickdetect": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"nbt": "{Tags: [\"left_click_detector\", \"prepared\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "combat:action/is_shift_hit"
+	}
+}

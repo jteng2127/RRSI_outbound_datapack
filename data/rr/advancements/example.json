@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:structure_void"
+		},
+		"title": "example",
+		"description": "test",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/item/barrier.png"
+	},
+	"criteria": {
+		"example": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2000
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrier",
+					"functions": [
+						{
+							"function": "set_name",
+							"name": ""
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CB.CUI.ui_item: 1b, CB.CUI.OPT.open: 1b, CustomModelData: 0}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

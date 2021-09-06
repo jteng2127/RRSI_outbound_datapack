@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 10,
+			"entries":[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				}
+			]
+		}
+	]
+}
